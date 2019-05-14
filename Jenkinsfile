@@ -4,7 +4,7 @@ node{
   slackSend baseUrl: 'https://hooks.slack.com/services/', 
   channel: '#jenkins-pipeline', 
   color: 'good', 
-  message: 'Hello From Mangi Lal', 
+  message: 'Prod Deployment started!!!!!!!!!!!, please be in touch with Niraj Marmar!!!!!!!!', 
   tokenCredentialId: 'slack-demo'
   }
 }
