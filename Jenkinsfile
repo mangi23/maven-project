@@ -7,4 +7,12 @@ node{
   message: 'Prod Deployment started!!!!!!!!!!!, please be in touch with BigOps Team!!!!!!!!', 
   tokenCredentialId: 'slack-demo'
   }
+  stage('email notofication){
+        mail bcc: '', 
+        body: 'Hi', 
+        cc: '', 
+        from: '', replyTo: '', 
+        subject: 'Hi', 
+        to: 'mangilal23@gmail.com'
+        }
 }
