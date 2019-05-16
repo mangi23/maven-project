@@ -7,9 +7,6 @@ node{
   message: 'Prod Deployment started by Mangi Lal(025468), please be in touch with BigOps Team!!!!!!!!', 
   tokenCredentialId: 'slack-demo'
   }
-  stage('git checkout'){
-    git 'https://github.com/mangilal23/maven-project'
-  }
   stage('email notofication'){
         mail bcc: '', 
         body: 'Hi', 
