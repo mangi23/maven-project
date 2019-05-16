@@ -4,7 +4,7 @@ node{
   slackSend baseUrl: 'https://hooks.slack.com/services/', 
   channel: '#jenkins-pipeline', 
   color: 'good', 
-  message: 'Prod Deployment started!!!!!!!!!!!, please be in touch with BigOps Team!!!!!!!!', 
+  message: 'Prod Deployment started!!, please be in touch with BigOps Team!!!!!!!!', 
   tokenCredentialId: 'slack-demo'
   }
   stage('email notofication'){
